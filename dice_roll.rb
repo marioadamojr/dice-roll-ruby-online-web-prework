@@ -3,7 +3,7 @@
 # Feel free to google "how to generate a random number in ruby"
 
 def roll
-ans = rand.(1..6)
-puts ans.to_i
-ans.to_i
+ans = rand.(1..6).to_1
+puts ans
+ans
 end
